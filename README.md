@@ -12,7 +12,7 @@ An enterprise-grade network architecture designed, deployed, and validated withi
 The network infrastructure is partitioned into distinct routing domains to balance scalability, administrative control, and isolation:
 
 1. **Core Backbone (OSPF Area 0):** The central transit area connecting core routing resources.
-2. **Internal Transit (OSPF Area 1):** Configured with the `10.2.2.0/24` subnet. 
+2. **Internal Transit (OSPF Area 1):** Configured with the `10.1.2.0/24` subnet. 
    * **Area1R2** acts as the internal OSPF transit router (`FastEthernet0/0` - `10.1.2.0/24`).
    * **BoundaryR3 (ASBR)** acts as the OSPF boundary interface (`GigabitEthernet1/0` - `10.1.2.3/24`).
 3. **Branch Network (RIPv2):** Configured on remote segments (e.g., `192.168.34.0/24`) to handle branch operations via distance-vector routing.
