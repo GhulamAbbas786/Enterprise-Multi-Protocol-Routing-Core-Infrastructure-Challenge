@@ -32,6 +32,6 @@ To bridge the OSPF and RIPv2 domains, **BoundaryR3 (ASBR)** performs bidirection
 
 ### 3. Subnet Integration & Validation
 * Core and transit segments are strictly mapped out to eliminate IP overlapping.
-* Verification of correct transit routing via the dedicated `10.2.2.0/24` OSPF Area 1 network path.
+* Verification of correct transit routing via the dedicated `10.1.2.0/24` OSPF Area 1 network path.
 
 ---
