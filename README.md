@@ -35,14 +35,3 @@ To bridge the OSPF and RIPv2 domains, **BoundaryR3 (ASBR)** performs bidirection
 * Verification of correct transit routing via the dedicated `10.2.2.0/24` OSPF Area 1 network path.
 
 ---
-
-## 📁 Repository Structure
-
-```text
-├── configs/                  # Saved Cisco IOS startup-configs
-│   ├── CoreR1.cfg            # OSPF Area 0 Backbone Router
-│   ├── Area1R2.cfg           # OSPF Area 1 Transit Router
-│   ├── BoundaryR3_ASBR.cfg   # ASBR doing OSPF/RIPv2 Redistribution
-│   └── BranchR4.cfg          # RIPv2 Branch Router
-├── topology/                 # GNS3 project file and topology diagram
-└── documentation/            # Routing tables and step-by-step validation reports
