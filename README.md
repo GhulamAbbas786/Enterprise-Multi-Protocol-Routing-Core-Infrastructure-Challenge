@@ -186,6 +186,16 @@ The deployment demonstrates a fully converged, resilient multi-protocol architec
 - A floating static route provides deterministic failover without impacting normal traffic flow
 
 ---
+## 📁 Project Directory Structure
+
+```text
+├── Config/                  # Cisco device startup configuration files (.cfg)
+├── images/                  # Network topology screenshots and diagrams
+├── Enterprise Multi-Protocol Challenge.pdf  # Detailed project documentation
+├── Enterprise Multi-Protocol Routing.gns3   # Main GNS3 environment file
+└── README.md                # Project overview and technical protocols list
+
+----
 
 ## 👤 Author
 
