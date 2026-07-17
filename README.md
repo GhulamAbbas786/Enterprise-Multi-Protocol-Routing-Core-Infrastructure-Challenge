@@ -195,7 +195,8 @@ The deployment demonstrates a fully converged, resilient multi-protocol architec
 ├── Enterprise Multi-Protocol Routing.gns3   # Main GNS3 environment file
 └── README.md                # Project overview and technical protocols list
 
-----
+---
+
 
 ## 👤 Author
 
